@@ -52,5 +52,5 @@ class Search extends Component {
 }
 const mapDispatchToProps = {
     fetchTweet
-};
-export default connect(null, mapDispatchToProps)(Search);
+}
+export default connect(null, mapDispatchToProps)(Search)
