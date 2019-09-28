@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+.hastag {
+  width: 18rem;
+}
+.tweet {
+  width: 40rem;
+}
+.borderedImg{
+  border-radius: 100%
+}
+.tUsr{
+  margin-left: 1%;
+  margin-top: 1%
+}
