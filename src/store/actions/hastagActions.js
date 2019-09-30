@@ -12,7 +12,7 @@ export const fetchHastag = () => async dispatch => {
         ).then(res => {return res.json()});
         return dispatch({
             type: FETCH_HASTAG_SUCCESS,
-            payload: response[0]
+            payload: response
         });
     } catch (err) {
         return dispatch({ type: FETCH_HASTAG_ERROR, err });
